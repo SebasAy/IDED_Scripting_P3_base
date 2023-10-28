@@ -1154,6 +1154,7 @@ MonoBehaviour:
   arrows: 10
   markGO: {fileID: 896500799}
   useWind: 0
+  playerController: {fileID: 1070497776}
 --- !u!1 &1012751037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,6 +1473,9 @@ MonoBehaviour:
   windLabel: {fileID: 311191774}
   gameOverGroup: {fileID: 1865171736}
   windDirectionIndicator: {fileID: 1396487426}
+  gameOverOverlay: {fileID: 1865171736}
+  scoreText: {fileID: 1012751039}
+  arrowCountText: {fileID: 1562026293}
 --- !u!1 &1312645002
 GameObject:
   m_ObjectHideFlags: 0

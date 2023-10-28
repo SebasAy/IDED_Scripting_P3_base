@@ -28,7 +28,7 @@ public class RefactoredGameController : GameControllerBase
         base.Awake();
     }
 
-    private void Update()
+    /*private void Update()
     {
         // Lógica de actualización del juego
     }
@@ -52,7 +52,7 @@ public class RefactoredGameController : GameControllerBase
     private void CalculateScore(Vector3 shotPosition)
     {
         // Implementa la lógica de cálculo de puntaje aquí.
-    }
+    }*/
 
     // Verifica si el juego ha terminado.
     private bool CheckGameOver()
