@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class RefactoredUIController : UIControllerBase
 {
-    private RefactoredGameController gameController; // Asegúrate de asignar una instancia de RefactoredGameController en el Inspector.
+    public RefactoredGameController gameController; // Asegúrate de asignar una instancia de RefactoredGameController en el Inspector.
 
     protected override GameControllerBase GameController => gameController;
 

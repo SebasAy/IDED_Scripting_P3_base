@@ -1473,6 +1473,7 @@ MonoBehaviour:
   windLabel: {fileID: 311191774}
   gameOverGroup: {fileID: 1865171736}
   windDirectionIndicator: {fileID: 1396487426}
+  gameController: {fileID: 989672302}
   gameOverOverlay: {fileID: 1865171736}
   scoreText: {fileID: 1012751039}
   arrowCountText: {fileID: 1562026293}
