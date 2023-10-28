@@ -25,12 +25,12 @@ public class RefactoredPlayerController : PlayerControllerBase
 
     protected override void ProcessShot(Vector3 point)
     {
-        // Crea un comando y ejecútalo.
+        
         ICommand shotCommand = new ProcessShotCommand(point);
         shotCommand.Execute();
     }
 
-    // Implementa la interfaz ICommand.
+    
     private class ProcessShotCommand : ICommand
     {
         private Vector3 aimPosition;

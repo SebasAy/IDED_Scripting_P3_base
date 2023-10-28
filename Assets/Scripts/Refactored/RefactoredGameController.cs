@@ -33,7 +33,7 @@ public class RefactoredGameController : GameControllerBase
         CheckGameOver();
     }
 
-    // Verifica si el juego ha terminado.
+    
     private bool CheckGameOver()
     {
         if (RemainingArrows <= 0)
