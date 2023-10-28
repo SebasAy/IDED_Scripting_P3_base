@@ -7,7 +7,7 @@ public class RefactoredGameController : GameControllerBase
     public static RefactoredGameController Instance { get; private set; }
 
     [SerializeField]
-    private RefactoredPlayerController playerController;
+    public RefactoredPlayerController playerController;
 
     // Eventos para notificar el fin del juego y los disparos de flechas.
     public UnityEvent OnGameOver { get; private set; } = new UnityEvent();
