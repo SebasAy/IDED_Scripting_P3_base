@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class RefactoredPlayerController : PlayerControllerBase
 {
+    public RefactoredGameController gameController;
     public static RefactoredPlayerController Instance { get; private set; }
 
     private void Awake()
@@ -15,6 +16,11 @@ public class RefactoredPlayerController : PlayerControllerBase
         {
             Destroy(gameObject);
         }
+    }
+    protected override void Start()
+    {
+        ArrowCount = gameController.Arrows;
+        base.Start();
     }
 
     protected override void ProcessShot(Vector3 point)
