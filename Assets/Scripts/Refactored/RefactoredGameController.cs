@@ -28,31 +28,10 @@ public class RefactoredGameController : GameControllerBase
         base.Awake();
     }
 
-    /*private void Update()
+    private void Update()
     {
-        // Lógica de actualización del juego
-    }
-
-    public override void ProcessShot(Vector3 aimPosition)
-    {
-        // Lógica para procesar el disparo
-        // Actualiza el marcador de puntaje, calcula el puntaje, y determina el Game Over.
-        UpdateScore(aimPosition);
-        CalculateScore(aimPosition);
         CheckGameOver();
     }
-
-    // Actualiza el marcador de puntaje.
-    private void UpdateScore(Vector3 aimPosition)
-    {
-        // Implementa la lógica de actualización del puntaje aquí.
-    }
-
-    // Calcula el puntaje del disparo.
-    private void CalculateScore(Vector3 shotPosition)
-    {
-        // Implementa la lógica de cálculo de puntaje aquí.
-    }*/
 
     // Verifica si el juego ha terminado.
     private bool CheckGameOver()
